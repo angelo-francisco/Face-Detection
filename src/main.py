@@ -2,6 +2,7 @@ import cv2
 import mediapipe.python.solutions.face_detection as fd
 import mediapipe.python.solutions.drawing_utils as drw
 
+# TODO: add some ui
 
 webcam = cv2.VideoCapture(0)
 face_detector = fd.FaceDetection()
